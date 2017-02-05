@@ -1,0 +1,10 @@
+<ion-view view-title="Library">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="item in list" ng-click="click(item.nid)" class="unit">
+        <img class="crop" ng-src="{{item.field_books_image}}">
+        <p class="text">{{item.title}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

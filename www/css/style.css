@@ -1,0 +1,36 @@
+/* Empty. Add your own CSS if you like */
+img{
+  width: 20%;
+  float: left;
+}
+img.big{
+  width: 100%;
+}
+h3{
+  text-align: center;
+}
+
+p.text{
+  padding-left: 3%;
+}
+ion-content{
+  padding: 5%;
+}
+ion-item{
+  border-style: none;
+}
+.unit{
+ height: 110px;
+  border-style: none;
+}
+.margin{
+  margin: 130% 0 0;
+}
+ion-item.item.item-complex {
+  border-style: none;
+}
+ion-item.unit.item {
+  border-bottom: black;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
